@@ -1,0 +1,131 @@
+<!-- website RadioGaGa -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="labs10.css">
+<meta name="robots" content="all">
+<meta name="language" content="Dutch">
+<meta name="author" content="Kien">
+<meta name="description" content="RadioGaGa marketing">
+<meta name="keywords" content="RadioGaGa, muziek, playlist">
+<meta name="copyright" content="copyright">
+<title>Radio GaGa</title>
+</head>
+<body>
+			       <nav class="Voorraad">
+<ul>
+<div class="dropdown">
+  <button class="dropbtn">Opdrachten</button>
+  <div class="dropdown-content">
+   <a href="lab01.html">Lab 1</a>
+        <a href="lab02.html">Lab 2</a>
+        <a href="lab03.html">Lab 3</a>
+        <a href="lab04.html">Lab 4</a>
+        <a href="lab05.html">Lab 5</a>
+        <a href="lab06.html">Lab 6</a>
+        <a href="lab07.html">Lab 7</a>
+           <a href="lab08.html">Lab 8</a>
+              <a href="lab09.html">Lab 9</a>
+                  <a href="lab10.html">Lab 10</a>
+                  <a href="lab11.html">Lab 11</a>
+
+</div>
+</div>
+</ul>
+</nav>
+ <h3> Lab 10 </h3>
+</br>
+<nav>
+	<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="playlist.html">Playlist</a></li>
+			<li><a href="formulier.html">Formulier</a></li>
+			<li><a href="contact.html">Contact</a></li>
+	</ul>
+</nav>
+<div id= "logo">
+        </div>
+	<main>
+		<div id= "pager">
+	<div id= "vorige">
+		<a href= "playlist.html"> &lt;</a>
+	</div>
+	<div id = "volgende">
+		<a href= "contact.html"> &gt; </a>
+	</div>
+</div>
+	<main>
+
+	<form name="formulier"
+	action="mailto: postmaster@radiagaga.com"
+	method="post">
+
+	<fieldset>
+	<legend>Inschrijfformulier</legend>
+
+	<select required naam="cursus" id="cursus">
+			<option value="0">Kies een cursus</option>
+			<option value="cursus1">Cursus1</option>
+			<option value="cursus2">Cursus2</option>
+			<option value="cursus3">Cursus3</option>
+			</select>
+			<br>
+
+			<select required naam="locatie" id="locatie">
+			<option value="0">Kies een locatie</option>
+			<option value="locatie1">Locatie1</option>
+			<option value="locatie2">Locatie2</option>
+			<option value="locatie3">Locatie3</option>
+			</select>
+			<br>
+
+			<label for="datum">Geboortedatum: </label> <br>
+			<input required type="date" name="datum" id="datum"> <br>
+			<label for="geslacht">Selecteer Opleiding: </label>
+			BOL <input type="radio" name="geslacht" value="M">
+			BBL <input type="radio" name="geslacht" value="V">
+			<br>
+
+	<input required type="text" id="vnaam"
+	name="vnaam" placeholder="Voornaam"><br>
+	<input required type="text" id="anaam"
+	name="anaam" placeholder="Achternaam"><br>
+	<input required type="text" id="adres"
+	name="adres" placeholder="Adres"><br>
+	<input required type="text" id="woonplaats"
+	name="woonplaats" placeholder="Woonplaats"><br>
+	<input required type="email" id="email"
+	name="email" placeholder="E-mail"><br>
+	<input required type="text" id="mobiel"
+	name="mobiel" placeholder="Mobiel"><br>
+
+<textarea placeholder="Schrijf een commentaar"></textarea><br>
+
+			<label for="abonnementen">Geef je voorkeur aan:</label><br>
+			Avondschool:
+			<input type="checkbox" name="aschool"
+			id="aschool" value="school"><br>
+			Weekendschool:
+			<input type="checkbox" name="wschool"
+			id="wschool" value="school"><br>
+			Geen voorkeur:
+			<input type="checkbox" name="geen"
+			id="geen" value="school"><br>
+			<label for="ranking">Wat is je opleidingsniveau</label><br>
+			<input type="range" name="ranking" id="ranking" min="1" max="5">		
+</fieldset>
+<input type="submit" id="verzend"
+name="verzend" value="Verzend">
+</form>
+</main>
+<footer>
+<a href="#top"><img src="images/twitter.png" alt="x" ></a>
+<a href="#top"><img src="images/youtube.png" alt="x" ></a>
+<a href="#top"><img src="images/facebook.png" alt="x" ></a>
+<p>Copyright &copy; 2017 <i>Ontworpen door: xxx</i>
+	Alle rechten voorbehouden</p>
+
+</footer>
+</body>
+</html>

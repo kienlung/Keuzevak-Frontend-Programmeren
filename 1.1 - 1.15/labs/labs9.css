@@ -1,0 +1,85 @@
+table{
+	border: 1px solid black;
+	background-image: linear-gradient(to bottom, hsl(0, 80%, 50%), #bada55);
+}
+
+table td {
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid black;
+}
+caption {
+	caption-side: bottom;
+	border: 1px solid black;
+	background-color: #ADFF2F;
+}
+
+.Voorraad {
+	margin-top: 0em;
+	background-color: grey;
+}
+.Voorraad ul {
+	display: flex;
+	/*flex-flow: column;*/
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.Voorraad a {
+	display: block;
+	padding: 16px;
+	font-size: 1.2em;
+	font-family: sans-serif;
+	font-weight:700;
+	color: white;
+	text-shadow: 0 1px 1px rgba(255,255,255,.8);
+	text-decoration: none;
+	transition: all .5s ease-in-out .05s;
+}
+.Voorraad a:hover {
+	background-color: rgb(50,100,150);
+	color: white;
+	text-shadow: 0 1px 1px rgba(0,0,0,.8);
+}
+
+.dropbtn {
+  width: 143.8px;
+  background-color: grey;
+  color: white;
+  padding: 16px;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  font-weight:700;
+  border: none;
+}
+	
+.dropdown {
+  border-color: lime;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 143.8px;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  font-size: 0.85em;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #01FFE5;
+  padding: 20px 12px;
+  display: block;
+  background-color:	#8FBC8F; 
+}
+
+.dropdown-content a:hover {background-color: rgb(50,100,150)}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(50,100,150)}
+
+}
