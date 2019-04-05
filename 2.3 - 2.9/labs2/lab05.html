@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 05</title>
+</head>
+<body>
+	<script>
+		einddatum = prompt("Wat is de einddatum JJJJ-MM-DD?");
+
+		var deadline = new Date(einddatum);
+		document.write("<br> Deadline is: " + deadline);
+
+		var nu = Date.now();
+		var dag = 86400000;
+
+		var resterende = ((deadline -nu) / dag);
+		document.write('<br>Er zijn nog: ' + resterende.toFixed(0) + ' dagen te gaan!');
+	</script>
+
+</body>
+</html>

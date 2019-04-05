@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 04</title>
+</head>
+<body>
+	<script>
+		var palet = new Array();
+		palet[0] = "rood";
+		palet[1] = "groen";
+		palet[2] = "blauw";
+		palet[3] = "geel";
+		palet[4] = "oranje";
+		document.write('<br> palet: ' + palet);
+
+		var nieuwekleur = prompt('Typ een nieuwekleur in: ');
+		palet.push(nieuwekleur);
+		document.write('<br> nieuwekleur einde: ' + palet);
+
+		palet.unshift(nieuwekleur);
+		document.write('<br> nieuwekleur begin: ' + palet);
+
+		palet.sort();
+		document.write('<br> Alfabetische volgorde: ' + palet);
+
+		var palet1 = "rood groen blauw".split(" ");
+		document.write('<br> Palet 1: ' + palet1);
+
+		var	palet2 = "geel oranje".split(" ");
+		document.write('<br> Palet 2: ' + palet2);
+
+		var palet3 = palet;
+		document.write('<br>Kopie van palet: ' + palet3);
+		</script>
+
+</body>
+</html>

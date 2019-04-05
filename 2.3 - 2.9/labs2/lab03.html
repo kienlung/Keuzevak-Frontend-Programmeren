@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 03</title>
+</head>
+<body>
+	<script>
+		var testarray = new Array();
+		testarray[0] = "een";
+		testarray[1] = "twee";
+		testarray[2] = "3";
+		testarray[3] = "vier";
+		testarray[4] = "5";
+		document.write('<br>Opgave 3: ' + testarray);
+		document.write('<br>Opgave 4: Datatype is: ' + typeof 5);
+		delete testarray[4];
+		document.write('<br>Opgave 6: ' + testarray);
+		index = testarray.unshift('nul');
+		document.write('<br>Opgave 8: ' + testarray);
+		delete index[0];
+		document.write('<br>Opgave 10: Datatype [0]  is: ' +  typeof index[0]);
+		delete testarray[0];
+		document.write('<br>Opgave 12: ' + testarray);
+		delete testarray[2];
+		document.write('<br>Opgave 14: ' + testarray);
+		delete testarray[4];
+		document.write('<br>Opgave 16: ' + testarray);
+		</script>
+</body>
+</html>

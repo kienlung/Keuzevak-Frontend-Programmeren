@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 06</title>
+</head>
+<body>
+	<script>
+		var factuur = new Date("dd-mm-jjjj");
+		document.write('<br>Factuurdatum: ' + factuur);
+		var betaaldatum = new Date("dd-mm-jjjj");
+		document.write('<br>Betaaldatum: ' + betaaldatum);
+
+		var naam = prompt('Typ uw naam in: ');
+		document.write('<br>Bedankt voor je bestelling: ' + naam);
+		var titel = prompt('Titel van het boek');
+		document.write('<br>Boektitel is: ' + titel);
+		var aantal = prompt('Aantal boeken: ');
+		document.write('<br>Aantal te bestellen: ' + aantal);
+		var prijs = '29.90';
+		document.write('<br>Prijs per boek is: ' + prijs);
+		var Bedrag = prijs * aantal;
+		document.write('<br>Bedrag is: ' + Bedrag);
+		var btw = (Bedrag / 100) * 6;
+		document.write('<br>Btw is: ' + btw.toFixed(2));
+		var totaal = Bedrag + Btw;
+		document.write('<br>Totaal inclusief BTW is: ' + totaal.toFixed(2));
+
+	</script>
+</body>
+</html>
